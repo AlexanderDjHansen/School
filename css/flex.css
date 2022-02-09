@@ -2,13 +2,16 @@
     *** DISPLAY ***
     **************/
 
-.d-flex {
-    display: flex;
-}
+.d-flex { display: flex; }
     /***********
     *** FLEX ***
     ************/
 
-    .flex-grow {
-flex-grow: 1;
-}
+    .flex-grow { flex-grow: 1; }
+
+    /**********************
+    *** JUSTIFY & ALIGN ***
+    ***********************/
+
+.justify-content-between { justify-content:space-between;}
+.align-items-center { align-items: center;}
