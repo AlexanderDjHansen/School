@@ -22,6 +22,8 @@
 .mr-auto, .mx-auto {margin-right: auto;}
 .ml-auto, .mx-auto {margin-left: auto;}
 
+.m-6 {margin: var(--distance-6);}
+
 .mt-0, .my-0 {margin-top: var(--distance-0);}       /* 0rem */
 .mb-0, .my-0 {margin-bottom: var(--distance-0);}    /* 0rem */
 .mt-1, .my-1 {margin-top: var(--distance-1);}       /* 0.25rem */
@@ -69,6 +71,7 @@
     ******************/
     .text-decoration-none {text-decoration: none;}
     .text-center {text-align: center;}
+    .text-uppercase {text-transform: uppercase;}
 
     .lh-sm {line-height: var(--line-height-sm);}
     .lh-md {line-height: var(--line-height-md);}
@@ -82,11 +85,13 @@
     .text-size-xl {font-size: var(--display-xl);}
     .text-size-xxl {font-size: var(--display-xxl);}
 
+
+
    /**************
     *** Circle ***
     **************/
     .circle {border-radius: 100%;}
-    .rounded-corner {border-radius: 5%;}
+  /*   .rounded-corner {border-radius: 2%;} */
 
     /**************
     *** SHADOWS ***
@@ -113,6 +118,7 @@
     .border-small-white {border: var(--border-xs-white);}
     .border-bottom-sm {border-bottom: var(--border-sm);}
     .border-sm {border: var(--border-sm);}
+    .border-transparent {border: var(--border-transparent);}
 
     /*******************
     *** Colored bars ***
